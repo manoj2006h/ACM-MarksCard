@@ -130,6 +130,7 @@ function App() {
 
         <div>
           <button
+          className='bg-slate-700 text-white mt-2 p-1 rounded-lg'
           onClick={()=> {
             setSubject(0)
             setMarks([])
